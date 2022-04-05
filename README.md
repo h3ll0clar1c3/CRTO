@@ -704,7 +704,7 @@ General notes and advices for cobalt strike C2 framework.
   - **covertvpn:** Deploy a VPN on the current system, will create a new interface and merge it into a specified IP. Using this we can use a local interface to access the internal target network like we would do if we had a real connection through a router.
   
   ## Lateral Movement
-  - **portscan:** Performs a portscan on a spesific target.
+  - **portscan:** Performs a portscan on a specific target.
   - **portscan Usage:**
   ```
   portscan [ip or ip range] [ports]
