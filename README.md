@@ -557,7 +557,7 @@ General notes and advices for cobalt strike C2 framework.
 
 ### Pivot Listeners
 
-  - **TCP:** A basic tcp listener that bound on a spesific port.
+  - **TCP:** A basic tcp listener that bound on a specific port.
   - **SMB:** An amazing option for internal spread and lateral move, this payload uses named pipes over the smb protocol and is the best approach to bypass firewalls when even default ports like 80 and 443 are black listed.
 
 ### Miscellaneous Listeners
