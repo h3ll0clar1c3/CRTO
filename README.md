@@ -859,3 +859,13 @@ General notes and advices for cobalt strike C2 framework.
   - Clean up artifacts immediately after finishing a post-exploitation task.
   - Clean event logs after finishing with a host.
   
+  
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+* Additional References:
+
+https://www.ired.team/offensive-security/red-team-infrastructure/cobalt-strike-101-installation-and-interesting-commands
+https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/malleable-c2_main.htm?cshid=1062
+
+
