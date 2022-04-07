@@ -243,8 +243,8 @@ set host_stage "false"; # Do not use staging. Must use stageles payloads, now th
 #set host_stage "true"; # Host payload for staging over HTTP, HTTPS, or DNS. Required by stagers.set
 
 http-stager {  
-    set uri_x86 "/pixel";
-    set uri_x64 "/pixel";
+    set uri_x86 "/jquery-3.3.1.slim.min.js";
+    set uri_x64 "/jquery-3.3.2.slim.min.js";
 
     server {
         #header "Server" "NetDNA-cache/2.2";
@@ -608,8 +608,7 @@ http-post {
        
         id {
             mask;       
-            base64url;
-            #parameter "__cfduid";            
+            base64url;            
         }
               
         output {
