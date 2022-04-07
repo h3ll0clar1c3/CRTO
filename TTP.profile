@@ -252,7 +252,7 @@ http-stager {
         #header "Pragma" "no-cache";
         header "Connection" "Keep-Alive";
         #header "Content-Type" "application/javascript; charset=utf-8";
-        header "Cache-Control" "no-cache"
+        header "Cache-Control" "no-cache";
         output {
             ## The javascript was changed.  Double quotes and backslashes were escaped to properly render (Refer to Tips for Profile Parameter Values)
             # 2nd Line            
@@ -314,7 +314,7 @@ http-stager {
 
 post-ex {
     # Optionally specify non-existent filepath to force manual specification based on the Beacon host's running processes
-    set spawnto_x86 "C:\\Windows\Temp\\dllhost.exe";
+    set spawnto_x86 "C:\\Windows\\Temp\\dllhost.exe";
     # Hardcode paths like C:\\Windows\\System32\\dllhost.exe to avoid potential detections for %SYSNATIVE% use. !! This will break when attempting to spawn a 64bit post-ex job from a 32bit Beacon.
     set spawnto_x64 "C:\\Windows\\Temp\\dllhost.exe";
     # change the permissions and content of our post-ex DLLs
