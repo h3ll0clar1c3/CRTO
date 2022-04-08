@@ -873,3 +873,4 @@ General notes and advices for cobalt strike C2 framework.
 * https://github.com/threatexpress/malleable-c2
 * https://gist.github.com/tothi/8abd2de8f4948af57aa2d027f9e59efe
 * https://posts.specterops.io/a-deep-dive-into-cobalt-strike-malleable-c2-6660e33b0e0b
+* https://bluescreenofjeff.com/2017-01-24-how-to-write-malleable-c2-profiles-for-cobalt-strike/
