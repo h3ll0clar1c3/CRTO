@@ -54,7 +54,7 @@ set sample_name "CRTO Profile";
 ##    jitter: 0
 ## Guidelines:
 ##    - Beacon Timing in milliseconds (1000 = 1 sec)
-set sleeptime "30000";         # 30 Seconds
+set sleeptime "10000";         # 10 Seconds
 #set sleeptime "300000";       # 5 Minutes
 #set sleeptime "600000";      # 10 Minutes
 #set sleeptime "900000";      # 15 Minutes
