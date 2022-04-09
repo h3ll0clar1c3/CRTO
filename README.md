@@ -868,6 +868,7 @@ General notes and advices for cobalt strike C2 framework.
 * https://www.ired.team/offensive-security/red-team-infrastructure/cobalt-strike-101-installation-and-interesting-commands
 * https://ppn.snovvcrash.rocks/red-team/cobalt-strike
 * https://www.pentestpartners.com/security-blog/cobalt-strike-walkthrough-for-red-teamers
+* https://reconshell.com/list-of-awesome-cobaltstrike-resources/
 * https://hstechdocs.helpsystems.com/manuals/cobaltstrike/current/userguide/content/topics/malleable-c2_main.htm?cshid=1062
 * https://github.com/BC-SECURITY/Malleable-C2-Profiles
 * https://github.com/threatexpress/malleable-c2
