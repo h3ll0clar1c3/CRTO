@@ -593,7 +593,7 @@ http-get {
 ## Uncomment this Section to activate
 http-post {
 
-    set uri "/submit.php?id=1727526586";
+    set uri "/submit.php";
     set verb "POST";
 
     client {
@@ -609,10 +609,11 @@ http-post {
         header "Connection" "Keep-Alive";
         header "Cache-Control" "no-cache";
        
+        #transmit our session identifier as /submit.php?id=1727526586
         id {
             mask;       
             base64url;
-            parameter "__cfduid";            
+            parameter "id";            
         }
               
         output {
